@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    background-color: rgb(215, 212, 212);
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Perpetua;
+}
+.nav-container-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-text{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: rgb(52, 245, 255);
+}
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(/asset/image/background.jpg),linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.section-container-heading{
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.primary{
+    color: red;
+}
+.section-container-heading{
+    color: white;
+}
+.section-container-paragraph{
+    font-weight: 300;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+}
+.section-container-btn1{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 15px 35px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+.section-container-btn2{
+    border: none;
+    padding: 15px 35px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.section-banar{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/asset/image/footer-bg.png),linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-banar-logo{
+    width: 120px;
+    height: 120px;
+}
+.dev-icon{
+    margin: auto;
+    text-align: center;
+    height: 180px;
+    padding-top: 50px;
+    border: 2px solid red;
+    margin-right: 7%;
+    margin-top: 7%;
+}
+
+
+
+
