@@ -38,7 +38,7 @@
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-image: url(/asset/image/background.jpg),linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3));
+    background-image: url(../asset/image/background.jpg),linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    background-image: url(/asset/image/footer-bg.png),linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.9));
+    background-image: url(../asset/image/footer-bg.png),linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.9));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
