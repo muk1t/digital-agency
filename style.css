@@ -9,20 +9,22 @@
     align-items: center;
     padding: 20px;
 }
-.nav-bar{
+.nav-bar,li,a{
+    text-decoration: none;
     display: flex;
-    list-style: none;
     gap: 50px;
     font-size: 22px;
     font-weight: 600;
     font-family: Perpetua;
+    cursor: pointer;
+    color: black;
+    list-style: none;
 }
-.nav-bar:hover{
-    color: rgb(52, 245, 255);;
+.nav-bar,li,a:hover{
+    color: rgb(52, 245, 255);
 }
 .nav-container-left{
-    display: flex;
-    justify-content: center;
+    display: flex; 
     align-items: center;
 }
 
